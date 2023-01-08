@@ -1,0 +1,125 @@
+* {
+  font-family: Karla, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  height: 100px;
+}
+
+.troll {
+  height: 50px;
+  margin-left: 40px;
+}
+
+.meme-title {
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin-left: 8px;
+  font-size: 2rem;
+}
+
+.react-course {
+  margin-right: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+main {
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+
+.upper-section {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  height: auto;
+  width: 1000px;
+  display: block;
+  margin-right: 0;
+}
+
+input {
+  width: 483.5px;
+  height: 50px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  text-indent: 5px;
+  font-size: 23px;
+}
+
+.input1 {
+  margin-right: 10px;
+}
+
+.input2 {
+  margin-left: 10px;
+}
+
+button {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  height: 70px;
+  width: 1000px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.meme-image {
+  display: block;
+  max-width: 1000px;
+  max-height: 800px;
+}
+
+.meme-text-top {
+  position: absolute;
+  font-family: impact;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.meme-text-bottom {
+  position: absolute;
+  font-family: impact;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000;
+  bottom: 40%;
+}
